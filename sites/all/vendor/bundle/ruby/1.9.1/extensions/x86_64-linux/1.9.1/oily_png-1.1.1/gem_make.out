@@ -1,0 +1,94 @@
+/usr/local/rvm/rubies/ruby-1.9.3-p545/bin/ruby extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling color.c
+compiling operations.c
+operations.c: In function ‘oily_png_compose_bang’:
+operations.c:28: warning: ISO C90 forbids mixed declarations and code
+operations.c:41: warning: ISO C90 forbids mixed declarations and code
+operations.c:51: warning: ISO C90 forbids mixed declarations and code
+operations.c: In function ‘oily_png_replace_bang’:
+operations.c:84: warning: ISO C90 forbids mixed declarations and code
+operations.c:97: warning: ISO C90 forbids mixed declarations and code
+operations.c:107: warning: ISO C90 forbids mixed declarations and code
+compiling resampling.c
+resampling.c: In function ‘oily_png_generate_steps_residues’:
+resampling.c:23: warning: ISO C90 forbids mixed declarations and code
+resampling.c: In function ‘oily_png_canvas_steps’:
+resampling.c:48: warning: ISO C90 forbids mixed declarations and code
+resampling.c:57: warning: ISO C90 forbids mixed declarations and code
+resampling.c: In function ‘oily_png_canvas_steps_residues’:
+resampling.c:75: warning: ISO C90 forbids mixed declarations and code
+resampling.c:89: warning: ISO C90 forbids mixed declarations and code
+resampling.c:107: warning: ISO C90 forbids mixed declarations and code
+resampling.c: In function ‘oily_png_canvas_resample_nearest_neighbor_bang’:
+resampling.c:130: warning: ISO C90 forbids mixed declarations and code
+resampling.c:136: warning: ISO C90 forbids mixed declarations and code
+resampling.c: In function ‘oily_png_canvas_resample_bilinear_bang’:
+resampling.c:173: warning: ISO C90 forbids mixed declarations and code
+compiling png_decoding.c
+png_decoding.c: In function ‘oily_png_decode_filter_up’:
+png_decoding.c:20: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_1bit’:
+png_decoding.c:98: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_2bit’:
+png_decoding.c:110: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_4bit’:
+png_decoding.c:122: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_8bit’:
+png_decoding.c:134: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_16bit’:
+png_decoding.c:146: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_alpha_8bit’:
+png_decoding.c:158: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_grayscale_alpha_16bit’:
+png_decoding.c:170: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_truecolor_8bit’:
+png_decoding.c:210: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_truecolor_16bit’:
+png_decoding.c:222: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_truecolor_alpha_8bit’:
+png_decoding.c:234: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_scanline_truecolor_alpha_16bit’:
+png_decoding.c:246: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c: In function ‘oily_png_decode_png_image_pass’:
+png_decoding.c:335: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c:339: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c:345: warning: ISO C90 forbids mixed declarations and code
+png_decoding.c:350: warning: ISO C90 forbids mixed declarations and code
+compiling oily_png_ext.c
+oily_png_ext.c: In function ‘Init_oily_png’:
+oily_png_ext.c:13: warning: ISO C90 forbids mixed declarations and code
+oily_png_ext.c:17: warning: ISO C90 forbids mixed declarations and code
+oily_png_ext.c:21: warning: ISO C90 forbids mixed declarations and code
+oily_png_ext.c:29: warning: ISO C90 forbids mixed declarations and code
+compiling png_encoding.c
+png_encoding.c: In function ‘oily_png_encode_filter_up’:
+png_encoding.c:15: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_grayscale_1bit’:
+png_encoding.c:53: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_grayscale_2bit’:
+png_encoding.c:72: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_grayscale_4bit’:
+png_encoding.c:86: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_grayscale_8bit’:
+png_encoding.c:98: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_grayscale_alpha_8bit’:
+png_encoding.c:109: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_truecolor_8bit’:
+png_encoding.c:161: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_scanline_truecolor_alpha_8bit’:
+png_encoding.c:172: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c: In function ‘oily_png_encode_png_image_pass_to_stream’:
+png_encoding.c:246: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c:256: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c:261: warning: ISO C90 forbids mixed declarations and code
+png_encoding.c:274: warning: ISO C90 forbids mixed declarations and code
+linking shared-object oily_png/oily_png.so
+
+make  install
+/usr/bin/install -c -m 0755 oily_png.so /var/webs/groupupchina/sites/all/themes/vendor/bundle/ruby/1.9.1/gems/oily_png-1.1.1/ext/oily_png/.gem.20140414-9777-3u88a2/oily_png
+installing default oily_png libraries
