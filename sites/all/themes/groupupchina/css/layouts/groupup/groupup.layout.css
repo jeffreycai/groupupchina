@@ -1,0 +1,112 @@
+/*******************************************************************************
+ * groupup.layout.scss
+ *
+ * Styling of the "groupup" layout
+ * grids with Singularity.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000328}}
+.l-header .inner,
+.l-main .inner,
+.l-footer .inner {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000334}}
+.l-header,
+.l-main {
+  *zoom: 1;
+  margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/vendor\/bundle\/ruby\/1\.9\.1\/gems\/compass-0\.12\.5\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+  .l-header:after,
+  .l-main:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@media (min-width: 700px) {
+  /* Header Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000341}}
+  .l-branding {
+    width: 40.42553%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000344}}
+  .l-region--header {
+    width: 57.44681%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000347}}
+  .l-region--navigation {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: both; }
+
+  /* Content Area and Sidebar Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000355}}
+  .has-one-sidebar .l-region--sidebar-first,
+  .has-one-sidebar .l-region--sidebar-second {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000358}}
+  .has-one-sidebar .l-content {
+    width: 65.95745%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000364}}
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 31.91489%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: right;
+    margin-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000369}}
+  .has-two-sidebars .l-content {
+    width: 65.95745%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; } }
+@media (min-width: 1250px) {
+  /* Content Area and Sidebar Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000379}}
+  .has-two-sidebars .l-region--sidebar-first,
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 23.80952%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000383}}
+  .has-two-sidebars .l-content {
+    width: 49.20635%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.39683%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/webs\/groupupchina\/sites\/all\/themes\/groupupchina\/sass\/layouts\/groupup\/groupup\.layout\.scss}line{font-family:\0000386}}
+  .has-two-sidebars .l-region--sidebar-second {
+    width: 23.80952%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    clear: none; } }
