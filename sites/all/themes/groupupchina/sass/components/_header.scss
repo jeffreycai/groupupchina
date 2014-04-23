@@ -1,0 +1,15 @@
+.l-region--header {
+  *zoom:1;
+}
+.l-region--header:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.l-region--header .block {
+  float: left;
+  margin-right: 20px;
+}
+.l-region--header #block-block-3 {
+  float: right;
+}

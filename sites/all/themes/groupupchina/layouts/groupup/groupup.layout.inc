@@ -4,6 +4,7 @@ preview = preview.png
 template = groupup-layout
 
 ; Regions
+regions[slider]          = Slider
 regions[branding]       = Branding
 regions[header]         = Header
 regions[navigation]     = Navigation bar

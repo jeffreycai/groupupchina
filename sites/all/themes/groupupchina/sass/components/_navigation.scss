@@ -1,0 +1,21 @@
+.inner.navigation,
+.inner.branding {
+  *zoom:1;
+}
+.inner.navigation:after,
+.inner.branding:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.inner.navigation {
+  background-color: #F5F5F5;
+  padding: 10px 0px;
+}
+.l-region--navigation ul.menu {
+  margin: 0px;
+}
+.l-region--navigation ul.menu li {
+  margin-right: 15px;
+  list-style: none;
+}

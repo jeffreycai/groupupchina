@@ -1,6 +1,12 @@
+<a href="#" class="switch on"><i class="fa fa-bars"></i></a>
+<div class="l-slider">
+  <div><a href="#" class="switch off"><i class="fa fa-times"></i></a></div>
+  <?php print render($page['slider']); ?>
+</div>
+
 <div<?php print $attributes; ?>>
   <header class="l-header" role="banner">
-    <div class="inner">
+    <div class="inner branding">
       <div class="l-branding">
         <?php if ($logo): ?>
           <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -22,6 +28,10 @@
       </div>
 
       <?php print render($page['header']); ?>
+      
+    </div>
+    
+    <div class="inner navigation">
       <?php print render($page['navigation']); ?>
     </div>
   </header>

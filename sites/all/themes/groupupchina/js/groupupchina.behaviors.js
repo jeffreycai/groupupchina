@@ -56,5 +56,25 @@
       });
     }
   };
+  
+  /**
+   * Side slider action
+   */
+  Drupal.behaviors.groupupchinaSlider = {
+    attach: function (context, settings) {
+      $('a.switch.on').click(function(e){
+        e.preventDefault();
+        $('.l-slider').animate({
+          'left': '0px'
+        });
+      });
+      $('a.switch.off').click(function(e){
+        e.preventDefault();
+        $('.l-slider').animate({
+          'left': '-300px'
+        });
+      });
+    }
+  };
 
 })(jQuery);
